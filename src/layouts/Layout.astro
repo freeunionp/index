@@ -45,9 +45,15 @@ const lang = getLangFromUrl(Astro.url)
 		<link rel="alternate" href={`${Astro.site}es/`} hreflang="es" />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<script src="https://www.blockonomics.co/js/pay_button.js"></script>
 		<ClientRouter />
 	</head>
 	<body>
 		<slot />
+
+        <a href="" class="blockoPayBtn" data-toggle="modal" data-uid="14172701c59a4afa">
+          <img width="160" src="https://www.blockonomics.co/img/pay_with_bitcoin_medium.png">
+        </a>
+      
 	</body>
 </html>
