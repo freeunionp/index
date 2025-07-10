@@ -54,10 +54,6 @@ const lang = getLangFromUrl(Astro.url)
 	    <a href="" class="blockoPayBtn" data-toggle="modal" data-uid="14172701c59a4afa"> <img width="160" src="https://www.blockonomics.co/img/pay_with_bitcoin_medium.png"> </a>
 	  </div>
 	
-	  <script is:inline>
-		  const tpaybuttonjs = document.createElement('script');
-		  tpaybuttonjs.src = 'https://www.blockonomics.co/js/pay_button.js';
-		  document.body.appendChild(tpaybuttonjs);
-		</script>
+	  <script src="https://www.blockonomics.co/js/pay_button.js"></script>
 	</body>
 </html>
