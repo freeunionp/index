@@ -8,7 +8,7 @@ import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://moonlit-creponne-6f4f6c.netlify.app/',
+  site: 'https://aphand.com',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es'],
