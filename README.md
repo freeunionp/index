@@ -94,3 +94,4 @@ The i18n configuration can be found in `astro.config.mjs` and uses Astro's built
 ## 📄 License
 
 MIT - See the [LICENSE](LICENSE) file for details.
+。。
