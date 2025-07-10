@@ -51,11 +51,15 @@ const lang = getLangFromUrl(Astro.url)
 		<slot />
 
         <div style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);">
-	    <a href="#" class="blockoPayBtn" data-toggle="modal" data-uid="14">
+	    <a href="#" class="blockoPayBtn" data-toggle="modal" data-uid="14172701c59a4afa">
 	      <img width="160" src="https://www.blockonomics.co/img/pay_with_bitcoin_medium.png" alt="Pay with Bitcoin">
 	    </a>
 	  </div>
 	
-	  <script src="https://www.blockonomics.co/js/pay_button.js"></script>
+	  <script is:inline>
+		  const s = document.createElement('script');
+		  s.src = 'https://www.blockonomics.co/js/pay_button.js';
+		  document.body.appendChild(s);
+		</script>
 	</body>
 </html>
